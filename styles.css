@@ -1,0 +1,190 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    background-color:white;
+    display:grid;
+    grid-template-columns:1fr 1fr 7fr;
+    grid-template-rows: 70px 90px 250px 150px 50px 250px;
+    grid-gap:40px; 
+    grid-auto-flow: dense;
+   
+}
+
+
+
+.item {
+    
+}
+
+
+h1 {
+    
+    font-family: questa-grande, serif; 
+    font-style: normal;
+    font-weight: 300;
+    text-align: center;
+}
+
+h2
+    {font-family: brandon-grotesque, sans-serif; 
+     font-style: normal;
+     font-weight: 100;
+     font-size:20px; 
+     text-align: center;
+     color:black;
+     }
+
+h3
+    {font-family: brandon-grotesque, sans-serif; 
+     font-style: normal;
+     font-weight: 300;
+     font-size:25px; 
+     text-align: left;
+     color:black;
+     }
+
+h3 {
+    
+    font-family: questa-grande, serif; 
+    font-style: normal;
+    font-weight: 300;
+    text-align: left;
+}
+
+.item1 {
+    background-color:gainsboro;
+    text-align: center;
+    grid-column:1/5;
+    grid-row:1;
+    padding: 3px 5px 3px 5px;
+    
+    
+}
+
+.item2 {
+    background-color:gainsboro;
+    word-spacing: 300px; 
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    
+    
+}
+
+.item3 {
+    grid-column-start: 4;
+    grid-row-start:3; 
+
+}
+
+.item4 {
+    background-color:gainsboro;
+    text-align:center;
+    padding: 5px 30px 5px 30px;
+    grid-column-start:1;
+    grid-column-end:4;
+    grid-row-start:3;
+    grid-row-end:4;
+    
+
+    
+}
+
+.item5 {
+    background-color:gainsboro; 
+    grid-row:6;
+    grid-column:1/5;
+    text-align:center;
+}
+
+.item6 {
+    background-color: gainsboro;
+    grid-row:7;
+    grid-column:1/5; 
+    padding: 5px 30px 5px 30px;
+}
+
+.item7 {
+    background-color: gainsboro;
+    grid-row:9;
+    grid-column: 1/5;
+    padding: 5px 30px 5px 30px;
+}
+
+.item8 {
+    background-color: gainsboro;
+    grid-column-start:1;
+    grid-column-end:1/5;
+    grid-row-start:11;
+    text-align:center;
+}
+
+.item9 {
+    background-color: gainsboro;
+    grid-column-start:2;
+    grid-column-end:1/5;
+    grid-row:11;
+    text-align:center;
+    
+}
+
+.item10 {
+    background-color: gainsboro;
+    grid-column-start:3;
+    grid-column-end:1/5;
+    grid-row:11; 
+    text-align:center;
+}
+
+.item11 {
+    background-color: gainsboro;
+    grid-row:14;
+    grid-column: 1/5;
+    padding: 5px 30px 5px 30px;
+}
+
+.item12 {
+    background-color: gainsboro;
+    grid-row:15;
+    grid-column: 1/5;
+    padding: 10px 30px 10px 30px;
+}
+
+.item13 {
+    background-color: gainsboro;
+    grid-row:15;
+    grid-column: 1/5;
+    padding: 10px 30px 10px 30px;
+}
+
+.item14 {
+    background-color: gainsboro;
+    grid-row:16;
+    grid-column:1/5;
+    padding: 10px 30px 10px 30px;  
+}
+
+
+.item15 {
+    background-color: gainsboro;
+    grid-row:17;
+    grid-column:1/2;
+    padding: 10px 30px 10px 30px;
+}
+
+.header:hover { 
+        opacity: 0.5;
+        cursor: pointer; 
+}
